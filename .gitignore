@@ -103,4 +103,11 @@ dist
 # TernJS port file
 .tern-port
 
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
+
 # Edamam API key and app ID 
