@@ -7,10 +7,12 @@ namespace Commander.Data
     public interface ICommanderRepo
     {
         bool SaveChanges();
-        //IEnumerable refers to an api list while Command is the type <T>
+        //IEnumerable refers to an api list while Command is the type <T> (like T[] in angular)
         IEnumerable<Command> GetAllCommands();
         //Command is the return type
         Command GetCommandById(int id);
         void CreateCommand(Command command);
+        void UpdateCommand(Command command);
+        void DeleteCommand(Command command);
     }
 }

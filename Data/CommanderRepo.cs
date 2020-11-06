@@ -22,7 +22,6 @@ namespace Commander.Data
             }
 
             _commanderContext.Commands.Add(command);
-            SaveChanges();
         }
 
         public IEnumerable<Command> GetAllCommands()
@@ -38,6 +37,21 @@ namespace Commander.Data
         public bool SaveChanges()
         {
             return (_commanderContext.SaveChanges() >= 0);
+        }
+
+        public void UpdateCommand(Command command)
+        {
+            //nothing
+        }
+
+        public void DeleteCommand(Command command)
+        {
+            if (command == null)
+            {
+                throw new ArgumentNullException(nameof(command));
+            }
+
+            _commanderContext.Commands.Remove(command);
         }
     }
 }

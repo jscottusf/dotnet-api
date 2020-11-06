@@ -61,3 +61,6 @@ C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\runtimes\
 C:\Users\Joel.Scott\source\tutorials\Commander\obj\Debug\netcoreapp3.1\Commander.csproj.CopyComplete
 C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\Joel.Scott\source\tutorials\Commander\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
